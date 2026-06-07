@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-sand text-ink font-sans;
+    /* Faint warm grain so large flats never read as flat "tech" surfaces. */
+    background-image: radial-gradient(
+      rgba(166, 124, 82, 0.035) 0.5px,
+      transparent 0.5px
+    );
+    background-size: 3px 3px;
+  }
+
+  ::selection {
+    background: rgba(166, 124, 82, 0.22);
+    color: #1a1f2b;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    @apply font-serif;
+    font-weight: 500;
+    letter-spacing: -0.01em;
+  }
+}
+
+@layer components {
+  /* Small-caps spec/label treatment used for beds/baths, neighborhood tags, eyebrows. */
+  .eyebrow {
+    @apply font-sans uppercase text-brass;
+    font-size: 0.72rem;
+    letter-spacing: 0.22em;
+    font-weight: 500;
+  }
+
+  .rule {
+    @apply block h-px w-full bg-ink/10;
+  }
+
+  /* Heritage button: square, hairline, ample padding — no rounded "app" UI. */
+  .btn {
+    @apply inline-flex items-center justify-center font-sans uppercase transition-colors duration-300;
+    letter-spacing: 0.18em;
+    font-size: 0.74rem;
+    font-weight: 500;
+    padding: 1.05rem 2.2rem;
+  }
+
+  .btn-solid {
+    @apply btn bg-ink text-sand;
+  }
+  .btn-solid:hover {
+    @apply bg-brass text-sand;
+  }
+
+  .btn-outline {
+    @apply btn border border-ink/30 text-ink;
+  }
+  .btn-outline:hover {
+    @apply border-brass text-brass;
+  }
+
+  .btn-light {
+    @apply btn border border-off-white/40 text-off-white;
+  }
+  .btn-light:hover {
+    @apply border-brass-soft text-brass-soft;
+  }
+
+  .field-label {
+    @apply font-sans uppercase text-ink/55;
+    font-size: 0.68rem;
+    letter-spacing: 0.16em;
+  }
+
+  .field-input {
+    @apply w-full border-b border-ink/20 bg-transparent py-3 font-sans text-ink outline-none transition-colors duration-300;
+  }
+  .field-input::placeholder {
+    @apply text-ink/30;
+  }
+  .field-input:focus {
+    @apply border-brass;
+  }
+}
+
+/* §0.6 / §3 — respect reduced motion: kill transforms, parallax, drift, transitions. */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-ken-burns {
+    animation: none !important;
+    transform: none !important;
+  }
+}

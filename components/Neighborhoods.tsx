@@ -9,8 +9,8 @@ export function Neighborhoods() {
       <div className="mx-auto max-w-editorial px-6 lg:px-10">
         <SectionHeading
           eyebrow="Neighborhoods"
-          title="Four distinct worlds, one Peninsula."
-          intro="Local knowledge is the whole job. A brief orientation to the places I represent — and the character that sets each apart."
+          title="Four areas, each with its own feel."
+          intro="Knowing these neighborhoods is the whole job. Here’s a quick rundown of the areas I work in and what makes each one different."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">

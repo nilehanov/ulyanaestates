@@ -49,9 +49,9 @@ export function Hero() {
           transition={{ duration: 1.1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="mt-7 max-w-xl font-sans text-base font-light leading-relaxed text-sand/80"
         >
-          Ulyana Hanov, REALTOR® — representing buyers and sellers across the
-          Palos Verdes Peninsula and the South Bay with discretion and
-          full-service attention.
+          Ulyana Hanov, REALTOR® — helping buyers and sellers across the Palos
+          Verdes Peninsula and the South Bay, with one agent handling the whole
+          process from start to finish.
         </motion.p>
 
         <motion.div

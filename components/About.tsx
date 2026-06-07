@@ -27,25 +27,24 @@ export function About() {
         <Reveal className="lg:col-span-7" delay={0.1}>
           <p className="eyebrow">About Ulyana</p>
           <h2 className="mt-5 text-balance font-serif text-[2.1rem] font-normal leading-[1.1] text-ink sm:text-4xl lg:text-[2.8rem]">
-            Local knowledge, given the time it deserves.
+            I know these neighborhoods — and I’ll give you the time.
           </h2>
 
           {/* [BIO] Replace with Ulyana's own bio. Placeholder copy below is honest
               for a newly licensed agent — no fabricated sales history. */}
           <div className="mt-7 space-y-5 font-sans text-[0.98rem] font-light leading-relaxed text-ink/70">
             <p>
-              [BIO] Ulyana Hanov is a licensed REALTOR® serving the Palos Verdes
-              Peninsula and the South Bay. She pairs close knowledge of the
-              Peninsula’s neighborhoods with patient, full-service attention —
-              the kind of representation that treats a single transaction as the
-              only one that matters.
+              [BIO] Ulyana Hanov is a licensed REALTOR® working across the Palos
+              Verdes Peninsula and the South Bay. She knows the area’s
+              neighborhoods well and gives every client real, patient attention —
+              treating your sale or purchase like it’s the only one on her desk.
             </p>
             <p>
-              As a newer agent, Ulyana competes on care rather than volume:
-              responsive communication, careful preparation, and the marketing
-              resources and broker support of Estate Properties behind every
-              client. Whether you are buying your first home in Torrance or
-              selling on the bluffs of Palos Verdes, the standard is the same.
+              As a newer agent, she competes on effort, not a long sales count:
+              she answers quickly, prepares carefully, and has the marketing
+              resources and broker support of Estate Properties behind her.
+              Whether you’re buying your first home in Torrance or selling on the
+              bluffs of Palos Verdes, you get the same care.
             </p>
           </div>
 

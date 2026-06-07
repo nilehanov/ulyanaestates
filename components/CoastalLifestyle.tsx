@@ -36,8 +36,8 @@ export function CoastalLifestyle() {
       <div className="mx-auto max-w-editorial px-6 lg:px-10">
         <SectionHeading
           eyebrow="Coastal Lifestyle"
-          title="A way of living that begins at the water’s edge."
-          intro="From the bluffs of Palos Verdes to the walk-streets of the beach cities — the Peninsula and South Bay reward those who know where to look."
+          title="Life here starts at the water’s edge."
+          intro="From the bluffs of Palos Verdes to the walk-streets of the beach cities, there’s a lot to love about living out here — and a lot worth knowing before you buy or sell."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-12">

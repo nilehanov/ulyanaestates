@@ -4,23 +4,23 @@ import { SectionHeading } from './Section';
 const pillars = [
   {
     num: '01',
-    title: 'Personalized representation',
-    body: 'One agent, fully engaged — from first conversation to closing. You work directly with me, not a handoff chain.',
+    title: 'You work with me, not a rotating team',
+    body: 'From the first call to closing day, I’m the one handling your sale — answering the phone, showing up to appointments, and keeping track of the details.',
   },
   {
     num: '02',
-    title: 'Discretion by default',
-    body: 'Quiet, confidential handling of every detail. Private showings, careful communication, and respect for your timeline.',
+    title: 'I keep your business your business',
+    body: 'Private showings, careful communication, and no pressure on your timeline. What we talk about stays between us.',
   },
   {
     num: '03',
-    title: 'Data-informed pricing',
-    body: 'Positioning grounded in current comparables and local market movement — never guesswork, never inflated promises.',
+    title: 'Straight talk on price',
+    body: 'I’ll walk you through the actual comparable sales and what’s moving right now, then price it to sell — not to flatter you.',
   },
   {
     num: '04',
-    title: 'A white-glove process',
-    body: 'Coordination of staging, photography, marketing, and vendors, backed by the resources of Estate Properties.',
+    title: 'I handle the moving parts',
+    body: 'Staging, photography, marketing, vendors, paperwork — I coordinate all of it, with the resources of Estate Properties behind me.',
   },
 ];
 
@@ -32,9 +32,9 @@ export function Concierge() {
       <div className="mx-auto max-w-editorial px-6 lg:px-10">
         <SectionHeading
           light
-          eyebrow="The Concierge Approach"
-          title="Premium is a standard of care, not a price point."
-          intro="A newer name, an exacting standard. Every client receives the same attentive, full-service representation — measured, discreet, and thorough."
+          eyebrow="How I Work"
+          title="Whatever your budget, you get my full attention."
+          intro="I’m newer to the business, and I treat every client like they’re my only one. That means I pick up the phone, do the prep work, and tell you the truth — whether you’re buying your first place or selling a home you’ve had for thirty years."
         />
 
         <div className="mt-16 grid grid-cols-1 gap-px overflow-hidden border border-off-white/10 bg-off-white/10 sm:grid-cols-2">

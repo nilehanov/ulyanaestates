@@ -90,8 +90,8 @@ export function ContactForm() {
         <div className="lg:col-span-5">
           <SectionHeading
             eyebrow="What’s My Home Worth?"
-            title="Begin with a private conversation."
-            intro="Request a complimentary valuation or a confidential consultation. I respond to every inquiry personally."
+            title="Let’s start with a conversation."
+            intro="Want to know what your home is worth, or just have questions? Send a note — it comes straight to me, and I answer every one."
           />
           <Reveal delay={0.1} className="mt-10 space-y-5">
             <a

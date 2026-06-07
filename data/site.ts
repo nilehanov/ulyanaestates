@@ -30,8 +30,6 @@ export const site = {
       'Ulyana Hanov is a licensed real estate salesperson affiliated with Estate Properties.',
     equalHousing:
       'Equal Housing Opportunity. All real estate advertised is subject to the Federal Fair Housing Act.',
-    idxAttribution:
-      'Listing data sourced from CRMLS (California Regional MLS). Listed by Ulyana Hanov, Estate Properties · CRMLS.',
   },
 
   markets: [

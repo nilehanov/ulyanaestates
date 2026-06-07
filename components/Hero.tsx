@@ -63,8 +63,8 @@ export function Hero() {
           <Link href="/#contact" className="btn-solid bg-sand text-ink hover:bg-brass hover:text-sand">
             What’s My Home Worth?
           </Link>
-          <Link href="/#listings" className="btn-light">
-            View the Collection
+          <Link href="/#neighborhoods" className="btn-light">
+            Explore the Peninsula
           </Link>
         </motion.div>
       </div>

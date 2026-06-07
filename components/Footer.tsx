@@ -61,8 +61,8 @@ export function Footer() {
               </li>
             </ul>
             <nav className="mt-6 flex flex-wrap gap-x-5 gap-y-2 font-sans text-[0.72rem] uppercase tracking-[0.16em] text-off-white/50">
-              <Link href="/#listings" className="hover:text-brass-soft">
-                Listings
+              <Link href="/#neighborhoods" className="hover:text-brass-soft">
+                Neighborhoods
               </Link>
               <Link href="/about/" className="hover:text-brass-soft">
                 About
@@ -94,7 +94,6 @@ export function Footer() {
                 {site.broker.name} ({site.broker.affiliate}) · DRE# {site.broker.dre}
               </p>
               <p>{site.compliance.affiliation}</p>
-              <p>{site.compliance.idxAttribution}</p>
             </div>
           </div>
 

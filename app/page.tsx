@@ -1,6 +1,5 @@
 import { Nav } from '@/components/Nav';
 import { Hero } from '@/components/Hero';
-import { ListingsGrid } from '@/components/ListingsGrid';
 import { CoastalLifestyle } from '@/components/CoastalLifestyle';
 import { Neighborhoods } from '@/components/Neighborhoods';
 import { About } from '@/components/About';
@@ -15,7 +14,6 @@ export default function Home() {
       <Nav />
       <main id="main">
         <Hero />
-        <ListingsGrid />
         <CoastalLifestyle />
         <Neighborhoods />
         <About />

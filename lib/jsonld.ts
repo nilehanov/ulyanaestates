@@ -1,11 +1,8 @@
 import { site } from '@/data/site';
-import { listings } from '@/data/listings';
 
 // RealEstateAgent schema.org JSON-LD (§2). Rendered in the root layout so it
 // ships in prerendered HTML on every page.
 export function realEstateAgentJsonLd() {
-  const active = listings.find((l) => l.status === 'active');
-
   return {
     '@context': 'https://schema.org',
     '@type': 'RealEstateAgent',
@@ -47,17 +44,5 @@ export function realEstateAgentJsonLd() {
       '@type': 'City',
       name: m,
     })),
-    makesOffer: active
-      ? {
-          '@type': 'Offer',
-          itemOffered: {
-            '@type': 'SingleFamilyResidence',
-            name: active.address,
-            address: active.address,
-          },
-          price: active.price,
-          priceCurrency: 'USD',
-        }
-      : undefined,
   };
 }

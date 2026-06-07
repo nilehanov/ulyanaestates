@@ -8,7 +8,7 @@ import { Footer } from '@/components/Footer';
 export const metadata: Metadata = {
   title: 'About Ulyana Hanov, REALTOR®',
   description:
-    'Ulyana Hanov, REALTOR® (DRE# 02442380) affiliated with Estate Properties — local knowledge and full-service representation across the Palos Verdes Peninsula and South Bay.',
+    'Ulyana Hanov, REALTOR® (DRE# 02442380) affiliated with Estate Properties — local knowledge and full-service representation across the South Bay, West LA, greater Los Angeles, and Orange County.',
   alternates: { canonical: 'https://ulyanaestates.com/about/' },
 };
 

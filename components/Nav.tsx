@@ -40,7 +40,7 @@ export function Nav() {
       >
         <Link href="/" className="flex items-center gap-3" aria-label="Ulyana Estates — home">
           <Image
-            src="/brand/logo1-transparent.png"
+            src="/brand/logo1-transparent.webp"
             alt="Ulyana Estates"
             width={1419}
             height={1108}

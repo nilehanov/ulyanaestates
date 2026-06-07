@@ -4,7 +4,7 @@
 export const site = {
   name: 'Ulyana Estates',
   url: 'https://ulyanaestates.com',
-  tagline: 'Coastal estates, quietly handled — Palos Verdes & the South Bay.',
+  tagline: 'Buying and selling across the South Bay, Greater LA, and Orange County.',
 
   agent: {
     name: 'Ulyana Hanov',
@@ -32,15 +32,18 @@ export const site = {
       'Equal Housing Opportunity. All real estate advertised is subject to the Federal Fair Housing Act.',
   },
 
+  // Primary focus: South Bay/Torrance, West LA/Greater LA, Orange County.
+  // Palos Verdes is mentioned but no longer the primary market.
   markets: [
-    'Palos Verdes Estates',
-    'Rolling Hills',
-    'Rolling Hills Estates',
-    'Rancho Palos Verdes',
-    'Manhattan Beach',
-    'Hermosa Beach',
-    'Redondo Beach',
     'Torrance',
+    'Redondo Beach',
+    'Hermosa Beach',
+    'Manhattan Beach',
+    'West Los Angeles',
+    'Santa Monica',
+    'Los Angeles',
+    'Orange County',
+    'Palos Verdes Peninsula',
   ],
 
   social: {

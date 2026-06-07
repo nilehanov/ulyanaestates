@@ -1,30 +1,29 @@
 import Image from 'next/image';
 import { Reveal } from './Reveal';
-import { SectionHeading } from './Section';
 
 const frames = [
   {
-    src: '/lifestyle/oceanfront.jpg',
-    alt: 'Oceanfront living along the Palos Verdes coast',
-    caption: 'Oceanfront mornings, west-facing light',
+    src: '/lifestyle/oceanfront.webp',
+    alt: 'Oceanfront view along the Southern California coast',
+    caption: 'Oceanfront mornings',
     ratio: 'aspect-[7/5]',
   },
   {
-    src: '/lifestyle/equestrian.jpg',
-    alt: 'Equestrian bridle trail in Rolling Hills',
-    caption: 'Bridle trails through Rolling Hills',
+    src: '/lifestyle/equestrian.webp',
+    alt: 'Rider on a trail in the hills above the South Bay',
+    caption: 'Trails and open space, just inland',
     ratio: 'aspect-[3/4]',
   },
   {
-    src: '/lifestyle/golden-hour.jpg',
-    alt: 'Golden-hour coastline of the South Bay',
+    src: '/lifestyle/golden-hour.webp',
+    alt: 'Golden-hour Southern California coastline',
     caption: 'The coastline at golden hour',
     ratio: 'aspect-[16/10]',
   },
   {
-    src: '/lifestyle/village.jpg',
-    alt: 'Walkable village character of the Peninsula',
-    caption: 'Walkable village character',
+    src: '/neighborhoods/rolling-hills.webp',
+    alt: 'Green rolling hills with a ranch fence near the coast',
+    caption: 'Green hills, minutes from the beach',
     ratio: 'aspect-[3/4]',
   },
 ];
@@ -34,13 +33,7 @@ export function CoastalLifestyle() {
   return (
     <section id="lifestyle" className="bg-sand-deep py-24 lg:py-32">
       <div className="mx-auto max-w-editorial px-6 lg:px-10">
-        <SectionHeading
-          eyebrow="Coastal Lifestyle"
-          title="Life here starts at the water’s edge."
-          intro="From the bluffs of Palos Verdes to the walk-streets of the beach cities, there’s a lot to love about living out here — and a lot worth knowing before you buy or sell."
-        />
-
-        <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-12">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-12 md:grid-cols-12">
           <Reveal className="md:col-span-7" as="figure">
             <div className={`relative ${frames[0].ratio} overflow-hidden bg-sand`}>
               <Image src={frames[0].src} alt={frames[0].alt} fill sizes="(max-width:768px) 100vw, 58vw" className="object-cover" />

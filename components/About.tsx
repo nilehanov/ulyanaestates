@@ -12,7 +12,7 @@ export function About() {
         <Reveal className="lg:col-span-5" as="figure">
           <div className="relative aspect-[4/5] overflow-hidden bg-sand-deep">
             <Image
-              src="/about/ulyana-portrait.png"
+              src="/about/ulyana-portrait.webp"
               alt="Portrait of Ulyana Hanov, REALTOR®"
               fill
               sizes="(max-width:1024px) 100vw, 40vw"
@@ -34,8 +34,9 @@ export function About() {
               for a newly licensed agent — no fabricated sales history. */}
           <div className="mt-7 space-y-5 font-sans text-[0.98rem] font-light leading-relaxed text-ink/70">
             <p>
-              [BIO] Ulyana Hanov is a licensed REALTOR® working across the Palos
-              Verdes Peninsula and the South Bay. She knows the area’s
+              [BIO] Ulyana Hanov is a licensed REALTOR® based in the South Bay,
+              working across Torrance and the beach cities, West LA and the
+              greater Los Angeles area, and Orange County. She knows these
               neighborhoods well and gives every client real, patient attention —
               treating your sale or purchase like it’s the only one on her desk.
             </p>
@@ -60,7 +61,7 @@ export function About() {
             </div>
             <div>
               <dt className="field-label">Service Area</dt>
-              <dd className="mt-1 font-serif text-lg text-ink">PV Peninsula & South Bay</dd>
+              <dd className="mt-1 font-serif text-lg text-ink">South Bay · LA · Orange County</dd>
             </div>
           </dl>
 

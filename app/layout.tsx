@@ -22,17 +22,21 @@ const body = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(site.url),
   title: {
-    default: 'Ulyana Estates — Ulyana Hanov, REALTOR® | Palos Verdes & South Bay',
+    default: 'Ulyana Estates — Ulyana Hanov, REALTOR® | South Bay, LA & Orange County',
     template: '%s · Ulyana Estates',
   },
   description:
-    'Ulyana Hanov, REALTOR® affiliated with Estate Properties — coastal estates and homes across the Palos Verdes Peninsula and the South Bay, California.',
+    'Ulyana Hanov, REALTOR® affiliated with Estate Properties — helping buyers and sellers across the South Bay, Torrance, West LA, Greater Los Angeles, and Orange County.',
   keywords: [
-    'Palos Verdes real estate',
     'South Bay realtor',
-    'Palos Verdes Estates homes',
-    'Rancho Palos Verdes',
+    'Torrance real estate',
+    'Redondo Beach homes',
     'Manhattan Beach',
+    'West LA real estate',
+    'Santa Monica homes',
+    'Los Angeles realtor',
+    'Orange County real estate',
+    'Palos Verdes',
     'Ulyana Hanov',
     'Estate Properties',
   ],
@@ -41,14 +45,14 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     url: site.url,
-    title: 'Ulyana Estates — Palos Verdes & South Bay Real Estate',
+    title: 'Ulyana Estates — South Bay, LA & Orange County Real Estate',
     description: site.tagline,
     siteName: site.name,
     images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'Ulyana Estates' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Ulyana Estates — Palos Verdes & South Bay Real Estate',
+    title: 'Ulyana Estates — South Bay, LA & Orange County Real Estate',
     description: site.tagline,
     images: ['/og-image.jpg'],
   },

@@ -10,11 +10,11 @@ export function Hero() {
 
   return (
     <section className="relative h-[100svh] min-h-[640px] w-full overflow-hidden bg-charcoal">
-      {/* [HERO PHOTO] Replace /public/hero.jpg with Ulyana's golden-hour Palos
-          Verdes cliffside estate photo (≥2400px wide, landscape). */}
+      {/* [HERO PHOTO] Replace /public/hero.webp with Ulyana's own landscape
+          coastal/city photo. Keep it optimized (webp, ~1600px wide). */}
       <Image
-        src="/hero.jpg"
-        alt="Golden-hour view of a Palos Verdes cliffside estate over the Pacific"
+        src="/hero.webp"
+        alt="Golden-hour view of the Southern California coastline"
         fill
         priority
         sizes="100vw"
@@ -31,7 +31,7 @@ export function Hero() {
           transition={{ duration: 1, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="eyebrow mb-6 text-brass-soft"
         >
-          Palos Verdes Peninsula · South Bay, California
+          South Bay · Greater Los Angeles · Orange County
         </motion.p>
 
         <motion.h1
@@ -40,7 +40,7 @@ export function Hero() {
           transition={{ duration: 1.1, delay: 0.35, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-3xl text-balance font-serif text-[2.7rem] font-normal leading-[1.04] text-sand sm:text-6xl lg:text-7xl"
         >
-          Coastal estates, quietly handled.
+          Your home, handled with care.
         </motion.h1>
 
         <motion.p
@@ -49,9 +49,9 @@ export function Hero() {
           transition={{ duration: 1.1, delay: 0.5, ease: [0.22, 1, 0.36, 1] }}
           className="mt-7 max-w-xl font-sans text-base font-light leading-relaxed text-sand/80"
         >
-          Ulyana Hanov, REALTOR® — helping buyers and sellers across the Palos
-          Verdes Peninsula and the South Bay, with one agent handling the whole
-          process from start to finish.
+          Ulyana Hanov, REALTOR® — helping buyers and sellers across the South
+          Bay, the greater Los Angeles area, and Orange County, with one agent
+          handling the whole process from start to finish.
         </motion.p>
 
         <motion.div
@@ -64,7 +64,7 @@ export function Hero() {
             What’s My Home Worth?
           </Link>
           <Link href="/#neighborhoods" className="btn-light">
-            Explore the Peninsula
+            Explore the Areas
           </Link>
         </motion.div>
       </div>

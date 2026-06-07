@@ -8,42 +8,42 @@ export type Neighborhood = {
 };
 
 // Representative photography to be supplied by Ulyana. [NEIGHBORHOOD PHOTOS]
-// Drop images into /public/neighborhoods/ and update the `image` paths below.
+// Drop replacements (optimized webp) at the same paths.
 export const neighborhoods: Neighborhood[] = [
   {
-    id: 'pve',
-    name: 'Palos Verdes Estates',
+    id: 'south-bay',
+    name: 'South Bay & Torrance',
+    tag: 'Home Base',
+    blurb:
+      'Where I live and work — Torrance, Redondo, Hermosa, and Manhattan Beach. Great schools, walkable beach towns, and an easy drive to just about everything in LA.',
+    image: '/neighborhoods/beach-cities.webp',
+    alt: 'Beach town pier and coastline in the South Bay',
+  },
+  {
+    id: 'west-la',
+    name: 'West LA & the Westside',
+    tag: 'City',
+    blurb:
+      'Santa Monica, Brentwood, Culver City, and the wider Westside — walkable neighborhoods, ocean air, and quick access to everything the city has to offer.',
+    image: '/lifestyle/village.webp',
+    alt: 'Palm-lined street on the Westside of Los Angeles',
+  },
+  {
+    id: 'orange-county',
+    name: 'Orange County',
+    tag: 'Coast',
+    blurb:
+      'From the harbor towns to the beaches — Newport, Huntington, Irvine, and the OC coast, with a more relaxed pace and strong communities just south of LA.',
+    image: '/neighborhoods/rpv.webp',
+    alt: 'Orange County coastline with cliffs and ocean',
+  },
+  {
+    id: 'palos-verdes',
+    name: 'Palos Verdes Peninsula',
     tag: 'Coastal Bluffs',
     blurb:
-      'Mediterranean-style homes along the bluffs, where Malaga Cove and Lunada Bay meet the Pacific. Quiet streets, big trees, and some of the best ocean frontage on the Peninsula.',
-    image: '/neighborhoods/pve.jpg',
-    alt: 'Mediterranean estate on the bluffs of Palos Verdes Estates above the Pacific',
-  },
-  {
-    id: 'rolling-hills',
-    name: 'Rolling Hills & Rolling Hills Estates',
-    tag: 'Equestrian',
-    blurb:
-      'Gated, rural, and quiet — white ranch fences, riding trails, and real acreage behind the gates of Rolling Hills, with the village and stables of Rolling Hills Estates right next door.',
-    image: '/neighborhoods/rolling-hills.jpg',
-    alt: 'Equestrian trail winding through the hills of Rolling Hills',
-  },
-  {
-    id: 'rpv',
-    name: 'Rancho Palos Verdes',
-    tag: 'Pacific Vistas',
-    blurb:
-      'Dramatic coastline from Trump National to Portuguese Bend, with wide Catalina views, coastal preserves, and a lot of homes built to make the most of them.',
-    image: '/neighborhoods/rpv.jpg',
-    alt: 'Coastal cliffs and ocean horizon at Rancho Palos Verdes',
-  },
-  {
-    id: 'beach-cities',
-    name: 'Manhattan, Hermosa & Redondo Beach',
-    tag: 'The Strand',
-    blurb:
-      'The South Bay beach cities — walk-streets, the Strand, and a sand-and-volleyball culture that runs from Manhattan’s pier south through Hermosa and Redondo.',
-    image: '/neighborhoods/beach-cities.jpg',
-    alt: 'The Strand beachfront walkway in the South Bay beach cities',
+      'Up on the hill — quiet streets, ocean views, and some of the best frontage on the coast. A short hop from the South Bay when you want a little more room.',
+    image: '/neighborhoods/pve.webp',
+    alt: 'Bluffs and ocean views on the Palos Verdes Peninsula',
   },
 ];

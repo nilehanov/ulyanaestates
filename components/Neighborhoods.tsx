@@ -1,19 +1,12 @@
 import Image from 'next/image';
 import { Reveal } from './Reveal';
-import { SectionHeading } from './Section';
 import { neighborhoods } from '@/data/neighborhoods';
 
 export function Neighborhoods() {
   return (
     <section id="neighborhoods" className="bg-sand py-24 lg:py-32">
       <div className="mx-auto max-w-editorial px-6 lg:px-10">
-        <SectionHeading
-          eyebrow="Neighborhoods"
-          title="Four areas, each with its own feel."
-          intro="Knowing these neighborhoods is the whole job. Here’s a quick rundown of the areas I work in and what makes each one different."
-        />
-
-        <div className="mt-16 grid grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="grid grid-cols-1 gap-x-8 gap-y-14 sm:grid-cols-2 lg:grid-cols-4">
           {neighborhoods.map((n, i) => (
             <Reveal key={n.id} delay={i * 0.08} as="figure" className="group">
               <div className="relative aspect-[4/5] overflow-hidden bg-sand-deep">

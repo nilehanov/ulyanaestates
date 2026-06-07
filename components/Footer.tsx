@@ -11,15 +11,15 @@ export function Footer() {
           <div className="md:col-span-5">
             {/* CONFIRM LOGO ROLES: footer wordmark uses logo1.png (production asset). */}
             <Image
-              src="/brand/logo1-transparent.png"
+              src="/brand/logo1-transparent.webp"
               alt="Ulyana Estates"
               width={1419}
               height={1108}
               className="h-16 w-auto brightness-0 invert"
             />
             <p className="mt-6 max-w-sm font-sans text-[0.9rem] font-light leading-relaxed text-off-white/60">
-              Ulyana Hanov, REALTOR® — representing buyers and sellers across the
-              Palos Verdes Peninsula and the South Bay.
+              Ulyana Hanov, REALTOR® — helping buyers and sellers across the
+              South Bay, greater Los Angeles, and Orange County.
             </p>
             <div className="mt-6 flex gap-5 font-sans text-[0.72rem] uppercase tracking-[0.18em] text-off-white/50">
               {/* Social placeholders — CONFIRM real handles in data/site.ts. */}

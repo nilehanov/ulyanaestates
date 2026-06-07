@@ -9,7 +9,7 @@ export function realEstateAgentJsonLd() {
     name: site.agent.name,
     description: site.compliance.affiliation,
     url: site.url,
-    image: `${site.url}/about/ulyana-portrait.png`,
+    image: `${site.url}/about/ulyana-portrait.webp`,
     telephone: site.agent.phone,
     email: site.agent.email,
     knowsLanguage: ['en'],
